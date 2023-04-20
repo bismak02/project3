@@ -36,7 +36,6 @@
 }
 .img1{object-fit: fill;}
 .box {
-  border: 3px solid black;
   padding: 16px;
 }
 
@@ -67,6 +66,7 @@
   padding: 16px;
   text-align: left;
 }
+
 @media screen and (max-width: 600px) {
   .ILcol {
     width: 100%;
@@ -84,20 +84,17 @@
   padding:20px;
   text-align: center;
 }
-.img3 {
-  object-fit: fill;
-}
+
 
 
 /*Show Page*/
 .show-page {
- background-image: url("../images/netflix.png");
+	background-image: url("../images/netflix.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
 }
-
 .col {
   float: left;
   width: 33.2%;
@@ -107,6 +104,9 @@
   content: "";
   display: table;
   clear: both;
+}
+* {
+  box-sizing: border-box;
 }
 @media screen and (max-width: 600px) {
   .col {
@@ -126,15 +126,10 @@
   text-align:left;
 }
 .title{
-  font-size: 40px;
   padding:20px;
   text-align: center;
 }
-.img3 {
-  width: 300px;
-  height: 350px;
-  object-fit: fill;
-}
+
 iframe {
   width: 100%; /* Set the width to 100% of the parent element */
   height: 350px; /* Set a fixed height */
