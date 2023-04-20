@@ -173,50 +173,40 @@ iframe {
 
 
 /*boxslider*/
-.* {
-  box-sizing: border-box;
-}
+ box-sizing: border-box;
 }
 .slider {
   width: 100px;
   text-align: center;
   overflow: hidden;
-   margin: 0 auto;
-   display: flex; 
-   justify-content: center;
-   
+  margin: 0 auto;
+   display: flex;
+  justify-content: center;
 }
+
 .slides {
   display: flex;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
   width: 500px;
-  length: 400px;
+  height: 400px;
   text-align: center;
   margin: 0 auto;
 }
+
 .slides > div {
   scroll-snap-align: start;
   flex-shrink: 0;
-  width: 400px;
-  height:300px;
- margin-right: auto;
- border-radius: auto;
+  width: 500px;
+  height: 400px;
+  margin-right: auto;
+  border-radius: auto;
   background: gray;
+  transform-origin: center center;
   transform: scale(1);
   transition: transform 0.5s;
-  position: relative; 
-  text-align: center;
-  margin: 0 auto;
- display: flex;
-  
+  position: relative;
 }
-.slides > div > img {
-  max-width: 100%;
-  max-height: 100%;
-}
+
 .slider > a {
   display: inline-flex;
   width: 1.5rem;
@@ -226,16 +216,11 @@ iframe {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-   text-align: center;
-    margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
 }
-.slider > a:active {
-  top: 1px;
 
-}
-.slider > a:focus {
-  background: #000;
-}
+
 
 
 /*All PAGES*/
