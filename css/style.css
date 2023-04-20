@@ -1,0 +1,323 @@
+/*Resume Page*/
+.resume-page {
+  background-image: url("../images/pencil.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+}
+* {
+  box-sizing: border-box;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.line {
+  float: left;
+  width: 33%;
+  padding: 0 15px;
+}
+.rows {
+  margin: 0 -5px;
+}
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .line {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+  .img1{object-fit: fill;}
+}
+.box {
+  border: 3px solid black;
+  padding: 16px;
+}
+
+
+/*Illinois Page*/
+.illinois-page {
+ background-image: url("../images/sky.png");
+ background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+}
+* {
+  box-sizing: border-box;
+}
+.ILcol {
+  float: left;
+  width: 33.2%;
+  padding: 0 20px;
+}
+.ILtable {margin: 0 -5px;}
+.ILtable:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ILBox{
+  padding: 16px;
+  text-align: left;
+}
+@media screen and (max-width: 600px) {
+  .ILcol {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    margin-bottom: 10px;
+    
+  }
+}
+.title {
+  padding:20px;
+  text-align: center;
+}
+.img3 {
+  object-fit: fill;
+}
+
+
+/*Show Page*/
+.show-page {
+ background-image: url("../images/netflix.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+* {
+  box-sizing: border-box;
+}
+.col {
+  float: left;
+  width: 33.2%;
+  padding: 0 20px;
+}
+
+.table :after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .col {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+   
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.box {
+  padding: 16px;
+  text-align:left;
+}
+.title{
+  font-size: 40px;
+  padding:20px;
+  text-align: center;
+}
+.img3 {
+  width: 300px;
+  height: 350px;
+  object-fit: fill;
+}
+
+
+
+/*MAP*/
+.map-page {
+	background-image: url("../images/sky.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	margin: 10px;
+}
+	
+#wrapper {
+			width: 750px;
+			height: 650px;
+			background-color: gray;
+			margin:0 auto;
+			overflow: hidden;
+		}
+#canvas {
+			width: 600px;
+			height: 500px;
+			background-color: gray;
+			margin: 50px auto;
+		}
+
+
+/*boxslider*/
+.* {
+  box-sizing: border-box;
+}
+}
+.slider {
+  width: 100px;
+  text-align: center;
+  overflow: hidden;
+   margin: 0 auto;
+   display: flex; 
+   justify-content: center;
+   
+}
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  width: 500px;
+  length: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 400px;
+  height:300px;
+ margin-right: auto;
+ border-radius: auto;
+  background: gray;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative; 
+  text-align: center;
+  margin: 0 auto;
+ display: flex;
+  
+}
+.slides > div > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.slider > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+   text-align: center;
+    margin: 0 auto;
+	
+   
+}
+.slider > a:active {
+  top: 1px;
+
+}
+.slider > a:focus {
+  background: #000;
+}
+
+
+
+/*All PAGES*/
+h1,h2,h3{
+	text-align:center;
+	font-weight: bold; 
+	font-family: 'Times New Roman', Times;
+}
+h1{
+	text-decoration:underline;
+}
+p,li,h4{
+	font-family: 'Noto Sans JP', sans-serif, Times New Roman;
+}
+h1:hover{
+	background-color: black;
+	color: white;
+}
+h2:hover{
+	background-color: black;
+color: white;
+}
+h3:hover{
+	background-color: black;
+	color: white;
+}
+p:hover{
+	background-color: black;
+	color: white;
+}
+li:hover{
+	background-color: black;
+	color: white;
+}
+	/*navigation bar for all three pages*/
+#header-navbar {
+  background-color: gray;
+  overflow: hidden;
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#header-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#header-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+#header-navbar ul li a {
+  display: block;
+  padding: 19px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+#header-navbar ul li a:hover {
+  background-color: black;
+	color: white;
+}
+#footer {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	text-align:  center;
+}
+img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
