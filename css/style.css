@@ -141,7 +141,10 @@
   height: 350px;
   object-fit: fill;
 }
-
+iframe {
+  width: 100%; /* Set the width to 100% of the parent element */
+  height: 350px; /* Set a fixed height */
+}
 
 
 /*MAP*/
@@ -214,8 +217,6 @@
   max-width: 100%;
   max-height: 100%;
 }
-
-
 .slider > a {
   display: inline-flex;
   width: 1.5rem;
@@ -227,8 +228,6 @@
   border-radius: 50%;
    text-align: center;
     margin: 0 auto;
-	
-   
 }
 .slider > a:active {
   top: 1px;
@@ -237,7 +236,6 @@
 .slider > a:focus {
   background: #000;
 }
-
 
 
 /*All PAGES*/
@@ -277,7 +275,6 @@ li:hover{
   background-color: gray;
   overflow: hidden;
 }
-
 #navbar {
   float: left;
   width: 100%;
