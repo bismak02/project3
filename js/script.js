@@ -7,7 +7,6 @@ function init(){
 	var mapOptions = {
 		center: myLocation2,
 		zoom: 18,
-		//mapTypeId: google.maps.MapTypeId.SATELLITE,
 		mapTypeControlOptions: {
 			position: google.maps.ControlPosition.BOTTOM_CENTER
 		}
